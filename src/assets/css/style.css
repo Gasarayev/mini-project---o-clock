@@ -15,6 +15,11 @@ body {
   color: #f2ff8d; 
 }
 
+h1{
+    margin-top: 100px;
+    opacity: .1;
+}
+
 .hr,
 .min,
 .sec {
@@ -60,4 +65,12 @@ body {
   height: 4vmin;
   position: relative;
   padding: 0 4vmin;
+}
+
+
+@media screen and (max-width: 660px) {
+  h1{
+    margin-top: -100px;
+  }
+
 }
