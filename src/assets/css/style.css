@@ -11,7 +11,8 @@ body {
   display: grid;
   overflow: hidden;
   place-items: center;
-  background: linear-gradient(-45deg, #c4d2ef, #dfe6f6);
+  background: #0f0f0f; 
+  color: #f2ff8d; 
 }
 
 .hr,
@@ -30,26 +31,26 @@ body {
   height: 8vmin;
   display: grid;
   place-items: center;
-  color: #f9fbfd;
+  color: #f2ff8d; 
   transition: all 500ms 100ms ease;
   border-radius: 50%;
 }
 
 .number.pop {
-  color: #3e6ccb;
+  color: #0f0f0f;
   font-weight: bold;
   transform: scale(1.3);
-  background-color: #dfe6f6;
-  box-shadow: -1vmin -1vmin 2vmin -0.5vmin #f9fbfd,
-               1vmin 1vmin 2vmin #a9bee8;
+  background-color: #f2ff8d; 
+  box-shadow: -1vmin -1vmin 2vmin -0.5vmin #333,
+               1vmin 1vmin 2vmin #1a1a1a;
 }
 
 .strip {
   transition: transform 500ms ease-in-out;
   border-radius: 1.3333333333333vmin;
-  background-color: #dfe6f6;
-  box-shadow: -1vmin -1vmin 2vmin -0.5vmin #f9fbfd,
-               1vmin 1vmin 2vmin #a9bee8;
+  background-color: #1a1a1a;
+  box-shadow: -1vmin -1vmin 2vmin -0.5vmin #333,
+               1vmin 1vmin 2vmin #000;
 }
 
 .clock {
